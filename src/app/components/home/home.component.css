@@ -138,3 +138,36 @@ h1 {
     border-color: #ffffff;
   }
 }
+
+@media(max-width: 850px){
+  h1{
+    font-size: 3rem;
+  }
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  
+    to {
+      width: 325px
+    }
+  }
+}
+
+@media(max-width: 414px){
+  h1{
+    font-size: 2rem;
+  }
+  h3{
+    font-size: 1.5rem
+  }
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  
+    to {
+      width: 220px
+    }
+  }
+}
