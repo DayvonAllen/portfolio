@@ -1,0 +1,33 @@
+<div id="container">
+    <div id="nav">
+      <div id="menuButton" (click)="show()">
+        <div *ngIf="showNav; else nav">
+          <img [src]="menu" id="menu" alt="menu button">
+        </div>
+        <ng-template #nav>
+          <img [src]="close" id="close" alt="close menu button">
+        </ng-template>
+      </div>
+    </div>
+    <div class="overlay">
+      <div class="main" *ngIf="showNav; else alt">
+        <h1>Dayvon Allen</h1>
+        <h3>Full Stack Developer</h3>
+        <div class="social">
+          I <span id="heart"><i class="fas fa-heart"></i></span> <span id="code"><i class="fas fa-code"></i></span>
+        </div>
+      </div>
+        <ng-template #alt>
+          <div class="main">
+            <div id="secondary">
+            <hr>
+            <a class="navLink" (click)="show()">Home</a>
+            <hr>
+            <a class="navLink" routerLink="work">My Work</a>
+            <hr>
+          </div>
+          </div>
+        </ng-template>
+    </div>
+  </div>
+  

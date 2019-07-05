@@ -1,0 +1,109 @@
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+#nav{
+    height: 10vh;
+    /* background: #332E3C; */
+    background: #1ec677;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+hr{
+    height: 2px;
+    border: none;
+    background: #1ec677;
+}
+
+#background{
+    /* background: #C4B2BC; */
+    /* background: #006d95; */
+    background: linear-gradient(0deg, #006d95, #edfffb 80%) no-repeat;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#home h2{
+    font-size: 2.9rem;
+    color: #ffffff;
+}
+
+#project{
+    margin-top: 2.7rem;
+    width: 60vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+}
+
+.site{
+    background: #1ec677;
+    color: #ffffff !important;
+    font-family: 'Raleway', sans-serif;
+}
+
+.site:hover{
+    background: #bec1c4;
+}
+
+.item h1 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin-bottom: 1.6rem;
+    color: #000000; 
+}
+
+#last {
+    color: #ffffff !important;
+}
+
+.github:last-child{
+    margin-bottom: 4rem;
+}
+
+
+img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-bottom: .7rem;
+    margin-top: 1.2rem;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+#nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    color: #006d95;
+}
+
+#project a{
+    text-decoration: none;
+    display: block;
+    margin-top: .7rem;
+    width: 100%;
+    color: #332E3C;
+    font-family: 'Raleway', sans-serif;
+}
+
+.github:hover{
+    background: #bec1c4;
+    color: #ffffff !important;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
