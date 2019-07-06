@@ -1,7 +1,7 @@
 h1,
 h3 {
   font-family: 'Raleway', sans-serif !important;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 #container {
@@ -32,7 +32,9 @@ h3 {
   font-weight: 300;
   position: relative;
 }
-
+.email{
+  font-size: 2.6rem !important;
+}
 .navLink:hover{
   cursor: pointer;
   color: #F25F5C;
@@ -151,6 +153,13 @@ h1 {
     to {
       width: 325px
     }
+  }
+
+  .navLink{
+    font-size: 1.5rem;
+  }
+  .email{
+    font-size: 1.2rem !important;
   }
 }
 
